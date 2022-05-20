@@ -1,0 +1,88 @@
+.login__main-content {
+    background: url("https://www.teahub.io/photos/full/263-2630230_blur-desktop-wallpapers-gaussian-blur-background-green.jpg") center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__user-img {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: 90px;
+    z-index: 1;
+    border: 3px solid white;
+    border-radius: 300px;
+}
+
+.login__content {
+    background-color: darken($color: rgb(86, 100, 75), $amount: 1);
+    opacity: 0.7;
+    border-radius: 30px;
+    border: 4px solid white;
+    box-shadow: 5px 5px 7px 5px rgba(0, 0, 0, 0.2);
+    height: 500px;
+    width: 500px;
+    padding: 60px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__content input {
+    width: 420px;
+    height: 60px;
+    padding: 20px;
+    background-color: white;
+    font-size: 25px;
+    border: none;
+}
+
+.login__checkbox-ref {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 450px;
+}
+
+.login__checkbox-ref p {
+    display: flex;
+    align-items: center;
+}
+
+.login__checkbox-ref .checkbox {
+    height: 20px;
+    width: 20px;
+    
+}
+
+.login__checkbox-ref span {
+    color: white;
+}
+
+.login__checkbox-ref a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.login__content button {
+    width: 450px;
+    height: 80px;
+    color: white;
+    background-color: #202E12;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+
+    transition: color .3s ease;
+
+    &:hover {
+        background-color: #273716;
+    }
+}
